@@ -1,82 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Abdulaziz</title>
 </head>
 <body>
+
     <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a> </li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <a href="#" class="logo">Abdulaziz</a>
+        <nav class="navigation">
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a <b>Medical Devices Engineering student</b> with strong passion for <b>technology, programming, and hardware development</b>
-            . My interests lie in <b>engineering, software development, electronics, and game design</b>, and I am always looking to improve my technical skills. I enjoy working on <b>
-            real-world projects</b> that involve design, modeling and problem-solving.<br><br> I am particularly interested in <b>
-            embedded systems, artificial intelligence, biomedical engineering,</b> and game development, and I aim to develop my expertise in these areas. While I prefer working 
-            <b>independently</b>, I am also open to teamwork when necessary.</b></p>
+
+    <section class="main">
+        <div>
+            <h2>Hello, I'm Abdulaziz<br><span>Front-End Developer</span></h2>
+            <h3>I build websites</h3>
+            <a href="#projects" class="main-btn">View my work</a>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
+    <section class="cards" id="services">
+        <h2 class="title">Services</h2>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="info">
+                    <h3>Game Development</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit soluta omnis voluptatem quis, quo fuga hic delectus autem blanditiis. Possimus!</p>
+                </div>
+            </div>
 
-        <h3><b>✦ Programming & Software Development</b></h3>
-        <p><b>Python</b> - Moderate experience, comfortable with coding and problem-solving.</p>
-        <p><b>HTML & CSS</b> - Moderate experience, able to design structured web pages.</p>
-        <p><b>C# & MATLAB</b> - Currently learning and improving my skills.</p>
-        <p><b>Assembly Language</b> - Studying as part of my coursework.</p>
-        <p><b>Godot Engine</b> - Limited experience, exploring game development.</p>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+                <div class="info">
+                    <h3>Script Writing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem incidunt provident velit quisquam consectetur praesentium!</p>
+                </div>
+            </div>
 
-        <br>
-        <h3><b>✦ Engineering & Hardware</b></h3>
-        <p><b>Electronics & Embedded Systems</b> - Strong interest in working with sensors robotics, and microcontrollers.</p>
-        <p><b>Raspberry Pi & Arduino</b> - Familiar with interfacing and project development.</p>
-        <p><b>Medical Imaging Systems</b> - Learning and gaining knowledge in my academic field.</p>
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-terminal"></i>
+                </div>
+                <div class="info">
+                    <h3>Programming</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, facilis?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects</h2>
+        <div class="content">
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/Coming-soon.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Coming Soon...</p>
+                    <strong class="project-title">
+                        <span>Coming Soon</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/Coming-soon.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Coming Soon...</p>
+                    <strong class="project-title">
+                        <span>Coming Soon</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/Coming-soon.jpg">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Coming Soon...</p>
+                    <strong class="project-title">
+                        <span>Coming Soon</span>
+                        <a href="#" class="more-details">More details</a>
+                    </strong>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cards contact" id="contact">
+        <h2 class="title">Let's work together</h2>
+
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p>+9647755993321</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p>business@abdulaziz.com</p>
+                </div>
+            </div>
         
-        <br>
-        <h3><b>✦ Technical & Design Tools</b></h3>
-        <p><b>Git & GitHub</b> - learning version control for software development.</p>
-        <p><b>Linux (basic Experience)</b> - Some experience in using and setting up Linux systems.</p>
-        <p><b>UI/UX Design</b> - High interest (80%), currently improving design skills.</p>
-
-        <br>
-        <h3><b>✦ Other Skills & Interests</b></h3>
-        <p><b>Problem-Solving & Technical Research</b> - Strong analytical skills and ability to learn independently.</p>
-        <p><b>Game Development Concepts</b> - Interest in storytelling, mechanics, and character interaction.</p>
-        <p><b>Online Work & Freelancing</b> - Exploring skills to work independently in technical fields.</p>
-
-        <br>
-        <p>I am continuously learning and working on <b>projects that enhance my skills</b>, from <b>programming and electronics</b> to <b>design and development</b>
-        . My goal is to build career that combines <b>engineering, AI, and hardware innovation</b>. 🚀</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-
-            <h4>Simple Portfolio</h4>
-            <a id="button" href="https://abdulazizxii.github.io/Simple-Portfolio/" target="_blank">GO</a>
-
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: none@gmail.com</p>
-        <p>Telegram: abdulazizxii</p>
-    </section>
- 
-    <footer>
-        <p>© 2025 My Portfolio</p>
+    <footer class="footer">
+        <p class="footer-title">Copyrights @ <span>Abdulaziz</span></p>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+        </div>
     </footer>
 </body>
 </html>
